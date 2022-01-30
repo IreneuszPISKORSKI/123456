@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    row-gap: 10px;
+    border: solid black;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    background-color: gainsboro;
+    height: 8vh;
+    border: solid black;
+}
+
+.menu1, .menu2, .menu3{
+    background-color: #3bb645;
+    width: 5vw;
+}
+.menu2{
+    background-color: rgb(165, 119, 59);
+    border-left: solid black;
+    border-right: solid black;
+}
+
+.menu1{
+    border-left: solid black;
+}
+
+.ligne1, .ligne2{
+    display: flex;
+    gap: 1vh;
+}
+
+.block1{
+    background-color:goldenrod;
+    width: 33vw;
+    border: solid black;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    width: 67vw;
+    height: 35vh;
+    row-gap: 1vh;
+}
+
+.block3{
+    background-color: green;
+    width: 65vw;
+    height: 17vh;
+    border: solid black;
+}
+
+#footer{
+    background-color: slategray;
+    height: 4vh;
+    border: solid black;
+}
